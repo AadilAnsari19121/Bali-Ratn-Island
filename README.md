@@ -62,17 +62,17 @@ Allows data to be easily accessed, manipulated, updated and also used by an orga
 
 # Screenshots
 
-![Home](https://github.com/AadilAnsari19121/Taja_Khabar/blob/master/screenshots_taja_khabar/home.jpg)
+![Home](https://github.com/AadilAnsari19121/Bali-Ratn-Island/blob/master/ss_of_BRI/home.jpg)
 - Home Page
 #
-![full](https://github.com/AadilAnsari19121/Taja_Khabar/blob/master/screenshots_taja_khabar/full_det.jpg)
-- Full News Page
-#
-![Tech](https://github.com/AadilAnsari19121/Taja_Khabar/blob/master/screenshots_taja_khabar/tech.jpg)
+![full](https://github.com/AadilAnsari19121/Bali-Ratn-Island/blob/master/ss_of_BRI/cat.jpg)
 - Category Page
 #
-![search](https://github.com/AadilAnsari19121/Taja_Khabar/blob/master/screenshots_taja_khabar/searchview.jpg)
-- Search view
+![Tech](https://github.com/AadilAnsari19121/Bali-Ratn-Island/blob/master/ss_of_BRI/Pay.jpg)
+- Payment Page
+#
+![search](https://github.com/AadilAnsari19121/Bali-Ratn-Island/blob/master/ss_of_BRI/table_st.jpg)
+- Table Status
 
 
 # 🔗 Linkedln
