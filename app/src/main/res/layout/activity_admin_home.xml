@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin_home"
+    android:background="@color/whole_app_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="fill"
+        android:gravity="fill">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+
+            <Button
+                android:layout_marginTop="@dimen/_15sdp"
+                android:id="@+id/Button_cat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:background="@color/header"
+                android:text="c a t e g o r y"
+                android:padding="@dimen/_2sdp"
+                android:textSize="@dimen/_20ssp"
+                android:fontFamily="@font/font_style"
+                android:textColor="@color/textcolorforapp"/>
+            <Button
+                android:layout_marginTop="@dimen/_15sdp"
+                android:id="@+id/Button_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:background="@color/header"
+                android:text="m e n u"
+                android:padding="@dimen/_2sdp"
+                android:textSize="@dimen/_20ssp"
+                android:fontFamily="@font/font_style"
+                android:textColor="@color/textcolorforapp"/>
+            <Button
+                android:layout_marginTop="@dimen/_15sdp"
+                android:id="@+id/Button_table"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:background="@color/header"
+                android:text="t a b l e"
+                android:padding="@dimen/_2sdp"
+                android:textSize="@dimen/_20ssp"
+                android:fontFamily="@font/font_style"
+                android:textColor="@color/textcolorforapp"/>
+            <Button
+                android:layout_marginTop="@dimen/_15sdp"
+                android:id="@+id/Button_table_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:background="@color/header"
+                android:text="table live status"
+                android:padding="@dimen/_2sdp"
+                android:textSize="@dimen/_20ssp"
+                android:fontFamily="@font/font_style"
+                android:textColor="@color/textcolorforapp"/>
+
+
+            <Button
+                android:layout_marginTop="@dimen/_15sdp"
+                android:id="@+id/Button_employee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:background="@color/header"
+                android:text="e m p l o y e e "
+                android:padding="@dimen/_2sdp"
+                android:textSize="@dimen/_20ssp"
+                android:fontFamily="@font/font_style"
+                android:textColor="@color/textcolorforapp"/>
+            <Button
+                android:layout_marginTop="@dimen/_15sdp"
+                android:id="@+id/Button_orders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:background="@color/header"
+                android:text="o r d e r s"
+                android:padding="@dimen/_2sdp"
+                android:textSize="@dimen/_20ssp"
+                android:fontFamily="@font/font_style"
+                android:textColor="@color/textcolorforapp"/>
+            <Button
+                android:layout_marginTop="@dimen/_15sdp"
+                android:id="@+id/Button_sell"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:background="@color/header"
+                android:text="T o t a l"
+                android:padding="@dimen/_2sdp"
+                android:textSize="@dimen/_20ssp"
+                android:fontFamily="@font/font_style"
+                android:textColor="@color/textcolorforapp"/>
+
+            <Button
+                android:layout_marginTop="@dimen/_15sdp"
+                android:id="@+id/Button_change_pwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:background="@color/header"
+                android:text="change password"
+                android:padding="@dimen/_2sdp"
+                android:textSize="@dimen/_20ssp"
+                android:fontFamily="@font/font_style"
+                android:textColor="@color/textcolorforapp"/>
+
+
+            <Button
+                android:layout_marginTop="@dimen/_15sdp"
+                android:id="@+id/Button_fb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:background="@color/header"
+                android:text="see feedback"
+                android:padding="@dimen/_2sdp"
+                android:textSize="@dimen/_20ssp"
+                android:fontFamily="@font/font_style"
+                android:textColor="@color/textcolorforapp"/>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

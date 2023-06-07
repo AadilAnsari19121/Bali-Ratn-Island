@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin_add_dining_table"
+    android:background="@color/whole_app_background"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:padding="@dimen/_0sdp"
+        android:src="@mipmap/dining_table2"
+        app:civ_border_color="@color/headerdark"
+        app:civ_border_width="@dimen/_2sdp" />
+
+    <EditText
+        android:id="@+id/admin_add_dining_table_table_id"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_55sdp"
+        android:hint="Create Table Id :"
+        android:textColorHint="@color/textcolorforapp"
+        android:fontFamily="@font/font_style"
+        android:inputType="number"
+        android:textSize="@dimen/_23ssp"
+        android:textColor="@color/textcolorforapp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:paddingLeft="@dimen/_2sdp"
+        android:paddingRight="@dimen/_2sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginLeft="@dimen/_25sdp"
+        />
+
+
+
+    <EditText
+        android:inputType="number"
+        android:id="@+id/admin_add_dining_table_table_capicity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Capacity Of Table :"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="@dimen/_2sdp"
+        android:paddingRight="@dimen/_2sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:textSize="@dimen/_23ssp"
+        android:textColor="@color/textcolorforapp"
+        android:fontFamily="@font/font_style"
+        android:textColorHint="@color/textcolorforapp"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/_10sdp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_65sdp"
+        android:layout_marginLeft="@dimen/_50sdp"
+        android:layout_marginRight="@dimen/_50sdp"
+        android:text="add table"
+        android:drawableEnd="@drawable/ic_baseline_add_24"
+        android:drawableTint="@color/white"
+        android:paddingLeft="@dimen/_35sdp"
+        android:textSize="@dimen/_18ssp"
+        android:background="@color/header"
+        android:id="@+id/admin_add_dining_table_add_btn"
+        android:gravity="center"/>
+
+</LinearLayout>

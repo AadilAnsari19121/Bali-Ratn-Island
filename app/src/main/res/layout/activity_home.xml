@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home"
+    android:orientation="vertical"
+    android:background="@drawable/app_bg3"
+    >
+
+
+
+    <ImageView
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="@dimen/_300sdp"
+        android:src="@mipmap/logo2_0"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_0sdp"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/gotothe_customer_section"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="customer"
+        app:icon="@drawable/customer_icon_asset"
+        app:iconTint="@color/white"
+        app:iconSize="@dimen/_25ssp"
+        app:iconGravity="end"
+        app:iconPadding="-25dp"
+        android:textColor="@color/white"
+        android:paddingLeft="@dimen/_20sdp"
+        android:paddingRight="@dimen/_20sdp"
+        android:paddingTop="@dimen/_7sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:textSize="@dimen/_20ssp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginLeft="@dimen/_25sdp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/gotothe_staff_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="staff member"
+            android:textSize="@dimen/_20ssp"
+            app:iconSize="@dimen/_30sdp"
+            android:paddingStart="@dimen/_15sdp"
+            app:iconGravity="end"
+            app:iconTint="@color/white"
+            app:iconPadding="-5dp"
+            app:icon="@drawable/staff_asset"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:textColor="@color/white"
+            android:paddingLeft="@dimen/_25sdp"
+            android:paddingRight="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:paddingTop="@dimen/_7sdp"
+            android:paddingBottom="@dimen/_5sdp"/>
+
+
+
+
+
+</LinearLayout>

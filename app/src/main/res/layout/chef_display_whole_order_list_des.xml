@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_50sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/whole_app_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                >
+
+                <TextView
+                    android:id="@+id/chef_display_order_des_item_tb_num"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:fontFamily="@font/font_style"
+                    android:gravity="center"
+                    android:inputType="textMultiLine"
+                    android:padding="@dimen/_3sdp"
+                    android:text="04"
+                    android:textColor="@color/textcolorforapp"
+                    android:textSize="@dimen/_25ssp" />
+
+
+                <TextView
+                    android:id="@+id/chef_display_ordertime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_2sdp"
+                    android:fontFamily="@font/font_style"
+                    android:gravity="center"
+                    android:inputType="textMultiLine"
+                    android:padding="@dimen/_3sdp"
+                    android:text="cheese dry manchurain"
+                    android:textColor="@color/textcolorforapp"
+                    android:textSize="@dimen/_25ssp" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+        <TextView
+            android:layout_below="@+id/face_emp_rcv"
+            android:layout_width="match_parent"
+            android:layout_marginTop="-4dp"
+            android:layout_height="@dimen/_2sdp"
+            android:background="@color/headerdark"
+            />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

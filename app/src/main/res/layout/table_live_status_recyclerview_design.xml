@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_160sdp"
+    android:backgroundTint="@android:color/transparent"
+    android:background="@android:color/transparent"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_120sdp"
+            android:src="@mipmap/dining_table"
+            android:layout_gravity="center"
+            android:foregroundGravity="center"
+            android:id="@+id/table_live_img"/>
+
+        <TextView
+            android:id="@+id/table_live_tv"
+            android:layout_width="@dimen/_110sdp"
+            android:layout_height="wrap_content"
+            android:text="001"
+            android:textSize="@dimen/_25ssp"
+            android:fontFamily="@font/font_style"
+            android:textColor="@color/textcolorforapp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>

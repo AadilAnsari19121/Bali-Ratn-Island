@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Bali Ratn Island</string>
+    <string name="open_draw">Drawer open</string>
+    <string name="close_draw">Drawer close</string>
+</resources>

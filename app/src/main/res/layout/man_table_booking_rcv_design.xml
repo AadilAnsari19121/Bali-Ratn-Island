@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@android:color/transparent"
+    android:background="@android:color/transparent">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:layout_width="@dimen/_140sdp"
+            android:layout_height="@dimen/_140sdp"
+            android:src="@mipmap/dining_table"
+            android:id="@+id/man_rcv_dtbl_imv"
+            android:layout_marginTop="-5dp"
+            android:layout_marginLeft="@dimen/_10ssp"
+            />
+
+        <TextView
+            android:id="@+id/textView70"
+            android:layout_width="129dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@+id/man_rcv_dtbl_imv"
+            android:fontFamily="@font/font_style"
+            android:text="Table No :"
+            android:textColor="@color/textcolorforapp"
+            android:textSize="@dimen/_20ssp" />
+
+        <TextView
+            android:id="@+id/textView90"
+            android:layout_width="130dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="@dimen/_70sdp"
+            android:layout_toRightOf="@id/man_rcv_dtbl_imv"
+            android:fontFamily="@font/font_style"
+            android:text="Capacity :"
+            android:textColor="@color/textcolorforapp"
+            android:textSize="@dimen/_20ssp" />
+
+        <TextView
+            android:id="@+id/man_rcv_des_dining_table_id"
+            android:layout_width="136dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/font_style"
+            android:text="99"
+            android:textColor="@color/textcolorforapp"
+            android:textSize="@dimen/_20ssp"
+            android:layout_toRightOf="@id/textView70"/>
+
+        <TextView
+            android:id="@+id/man_rcv_desdining_table_capcity"
+            android:layout_width="140dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="@dimen/_70sdp"
+            android:fontFamily="@font/font_style"
+            android:text="46"
+            android:textColor="@color/textcolorforapp"
+            android:textSize="@dimen/_20ssp"
+            android:layout_toRightOf="@id/textView90" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="1.0"
+        android:layout_marginBottom="@dimen/_15sdp">
+
+    <Button
+        android:id="@+id/man_booking_table_rcv_book_table_btn"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:text="book table"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:layout_weight=".5"/>
+
+        <Button
+            android:id="@+id/man_booking_table_rcv_free_table_btn"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:text="free table"
+            android:layout_weight=".5"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/textcolorforapp"/>
+</LinearLayout>
+</androidx.cardview.widget.CardView>

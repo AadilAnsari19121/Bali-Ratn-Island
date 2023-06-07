@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin_add_menu"
+    android:orientation="vertical"
+    android:background="@color/whole_app_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/menu_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Menu Id"
+        app:startIconDrawable="@drawable/ic_baseline_emp_id_24"
+        app:startIconTint="@color/textcolorforapp"
+        app:boxCornerRadiusTopEnd="@dimen/_15sdp"
+        app:boxCornerRadiusBottomStart="@dimen/_15sdp"
+        app:boxStrokeColor="@color/textcolorforapp"
+        android:textColorHint="@color/textcolorforapp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_70sdp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textColor="@color/textcolorforapp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/menu_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Menu Item Name"
+        app:startIconDrawable="@drawable/ic_baseline_edu_24"
+        app:startIconTint="@color/textcolorforapp"
+        app:boxCornerRadiusTopEnd="@dimen/_15sdp"
+        app:boxCornerRadiusBottomStart="@dimen/_15sdp"
+        app:boxStrokeColor="@color/textcolorforapp"
+        android:textColorHint="@color/textcolorforapp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_35sdp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColor="@color/textcolorforapp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/menu_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Menu Price"
+        app:startIconDrawable="@drawable/ic_baseline_currency_rupee_24"
+        app:startIconTint="@color/textcolorforapp"
+        app:boxCornerRadiusTopEnd="@dimen/_15sdp"
+        app:boxCornerRadiusBottomStart="@dimen/_15sdp"
+        app:boxStrokeColor="@color/textcolorforapp"
+        android:textColorHint="@color/textcolorforapp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_35sdp"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textColor="@color/textcolorforapp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:startIconDrawable="@drawable/ic_baseline_restaurant_menu_24"
+        app:startIconTint="@color/textcolorforapp"
+        app:boxCornerRadiusTopEnd="@dimen/_15sdp"
+        app:boxCornerRadiusBottomStart="@dimen/_15sdp"
+        app:boxStrokeColor="@color/textcolorforapp"
+        android:textColorHint="@color/textcolorforapp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_35sdp"
+        app:endIconTint="@color/textcolorforapp"
+        android:id="@+id/xyz"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+        <AutoCompleteTextView
+            android:inputType="none"
+            android:textSize="@dimen/_17ssp"
+            android:textColor="@color/textcolorforapp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Category"
+            android:id="@+id/cat_menu"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:drawableEnd="@drawable/ic_baseline_add_24"
+                android:drawableTint="@color/white"
+                android:paddingLeft="@dimen/_35sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_65sdp"
+                android:layout_marginLeft="@dimen/_45sdp"
+                android:layout_marginRight="@dimen/_45sdp"
+                android:text="Add menu item"
+                android:id="@+id/add_menu"
+                android:layout_marginBottom="@dimen/_150sdp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

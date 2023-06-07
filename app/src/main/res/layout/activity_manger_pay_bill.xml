@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".manger_pay_bill">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whole_app_background"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@android:color/transparent"
+            >
+
+
+
+            <ListView
+                android:id="@+id/man_pay_bill_rcv"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                android:layout_margin="@dimen/_3sdp"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/_5sdp" />
+
+            <!--            <androidx.recyclerview.widget.RecyclerView-->
+            <!--                android:id="@+id/rcv2_see_cart"-->
+            <!--                android:visibility="gone"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_margin="0dp"-->
+            <!--                android:background="@android:color/transparent"-->
+            <!--                android:padding="0dp" />-->
+
+            <TextView
+                android:id="@+id/man_pay_bill_t_am"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total: 00"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:textSize="@dimen/_20ssp"
+                android:padding="@dimen/_5sdp"
+                android:fontFamily="@font/font_style"
+                android:textColor="@color/textcolorforapp"/>
+
+            <Button
+                android:id="@+id/man_pay_bill_pay_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="scan"
+                android:textSize="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_35sdp"
+                android:layout_marginLeft="@dimen/_35sdp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:drawableEnd="@drawable/baseline_qr_code_2_24"
+                android:drawableTint="@color/white"
+                android:paddingLeft="@dimen/_55sdp"
+                android:layout_marginBottom="@dimen/_100sdp"/>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

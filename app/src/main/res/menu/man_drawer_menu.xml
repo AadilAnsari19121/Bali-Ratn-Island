@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/g1"
+        >
+
+        <item
+            android:id="@+id/drawer_man_table"
+            android:title="Manage Table "
+            android:icon="@drawable/ic_baseline_table_bar_24"
+            android:iconTint="@color/textcolorforapp"
+            />
+
+        <item
+            android:id="@+id/drawer_man_order_status"
+            android:title="Order Status"
+            android:icon="@drawable/ic_baseline_restaurant_menu_24"
+            android:iconTint="@color/textcolorforapp"
+            />
+        <item
+            android:id="@+id/drawer_man_bill"
+            android:title="Bill"
+            android:icon="@drawable/ic_baseline_pin_24"
+            android:iconTint="@color/textcolorforapp"
+            />
+        <item
+            android:id="@+id/drawer_man_profile"
+            android:title="Profile"
+            android:icon="@drawable/ic_baseline_person_24"
+            android:iconTint="@color/textcolorforapp"
+            />
+    </group>
+
+</menu>

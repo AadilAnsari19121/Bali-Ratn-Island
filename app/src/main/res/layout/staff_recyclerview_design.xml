@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_120sdp"
+    android:background="@color/white"
+    android:layout_marginTop="@dimen/_3sdp"
+    android:layout_marginLeft="@dimen/_3sdp"
+    android:layout_marginRight="@dimen/_3sdp"
+    android:layout_marginBottom="@dimen/_5sdp"
+    app:cardCornerRadius="@dimen/_15sdp"
+    android:elevation="@dimen/_15sdp"    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/face_emp_rcv"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_2sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="@dimen/_100sdp"
+            android:src="@drawable/person_logo"
+            app:civ_border_color="@color/headerdark"
+            app:civ_border_width="@dimen/_3sdp" />
+
+        <LinearLayout
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:foregroundGravity="center"
+            android:id="@+id/xyz"
+            android:orientation="vertical"
+            android:background="@android:color/transparent"
+            android:layout_toRightOf="@+id/face_emp_rcv">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="st_man_001"
+            android:inputType="textMultiLine"
+            android:fontFamily="@font/font_style"
+            android:textColor="@color/textcolorforapp"
+            android:id="@+id/staff_id_emp_rcv"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:textSize="@dimen/_20ssp"
+            android:layout_marginRight="@dimen/_5sdp"/>
+        <TextView
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Aadil Ansari"
+            android:fontFamily="@font/font_style"
+            android:inputType="textMultiLine"
+            android:textColor="@color/textcolorforapp"
+            android:id="@+id/staff_name_emp_rcv"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:textSize="@dimen/_20ssp"
+            android:layout_marginRight="@dimen/_5sdp"/>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/menu_bt_emp"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/transparent"
+            android:src="@drawable/ic_baseline_more_vert_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.987"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_toRightOf="@+id/xyz"
+            android:foregroundGravity="center"
+            app:layout_constraintVertical_bias="0.507" />
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

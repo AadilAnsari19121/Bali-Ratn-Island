@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".manager_home"
+    android:orientation="vertical"
+    android:background="@color/whole_app_background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:paddingBottom="@dimen/_50sdp"
+            android:paddingTop="@dimen/_50sdp">
+
+            <Button
+                android:layout_marginTop="@dimen/_15sdp"
+                android:id="@+id/man_home_table"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:background="@drawable/btn_design_home"
+                android:text="manage table"
+                android:padding="@dimen/_2sdp"
+                android:textSize="@dimen/_20ssp"
+                android:fontFamily="@font/font_style"
+                android:textColor="@color/textcolorforapp"/>
+
+
+            <Button
+                android:layout_marginTop="@dimen/_15sdp"
+                android:id="@+id/man_home_orders"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:background="@color/header"
+                android:text="order status"
+                android:padding="@dimen/_2sdp"
+                android:textSize="@dimen/_20ssp"
+                android:fontFamily="@font/font_style"
+                android:textColor="@color/textcolorforapp"/>
+
+
+            <Button
+                android:layout_marginTop="@dimen/_15sdp"
+                android:id="@+id/man_home_bills"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:background="@color/header"
+                android:text="bill"
+                android:padding="@dimen/_2sdp"
+                android:textSize="@dimen/_20ssp"
+                android:fontFamily="@font/font_style"
+                android:textColor="@color/textcolorforapp"/>
+
+
+            <Button
+                android:layout_marginTop="@dimen/_15sdp"
+                android:id="@+id/man_home_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:background="@drawable/btn_design_home"
+                android:text="profile"
+                android:padding="@dimen/_2sdp"
+                android:textSize="@dimen/_20ssp"
+                android:fontFamily="@font/font_style"
+                android:textColor="@color/textcolorforapp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

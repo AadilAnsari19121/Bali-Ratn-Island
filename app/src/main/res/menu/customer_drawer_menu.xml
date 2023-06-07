@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single"
+        >
+
+        <item
+            android:id="@+id/drawer_customer_category"
+            android:title="Category "
+            android:icon="@drawable/ic_baseline_restaurant_menu_24"
+            android:iconTint="@color/textcolorforapp"
+            />
+
+        <item
+            android:id="@+id/drawer_customer_menu"
+            android:title="Menu"
+            android:icon="@drawable/ic_baseline_edu_24"
+            android:iconTint="@color/textcolorforapp"
+            />
+
+        <item
+            android:id="@+id/drawer_customer_cart"
+            android:title="Cart"
+            android:icon="@drawable/ic_baseline_shopping_cart_24"
+            android:iconTint="@color/textcolorforapp"
+            />
+        <item
+            android:id="@+id/drawer_customer_order_status"
+            android:title="Order Status"
+            android:icon="@drawable/ic_baseline_timer_24"
+            android:iconTint="@color/textcolorforapp"
+            />
+        <item
+            android:id="@+id/drawer_customer_bill"
+            android:title="Bill"
+            android:icon="@drawable/ic_baseline_pin_24"
+            android:iconTint="@color/textcolorforapp"
+            />
+        <item
+            android:id="@+id/drawer_customer_feedback"
+            android:title="Feedback"
+            android:icon="@drawable/ic_baseline_edit_24"
+            android:iconTint="@color/textcolorforapp"
+            />
+
+    </group>
+</menu>

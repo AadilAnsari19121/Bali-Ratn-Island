@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:text="EDIT"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textSize="@dimen/_30ssp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_45sdp"
+        android:background="@color/textcolorforapp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_50sdp">
+
+        <TextView
+            android:id="@+id/edit_dining_id"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_55sdp"
+            android:textColorHint="@color/textcolorforapp"
+            android:fontFamily="@font/font_style"
+            android:inputType="textMultiLine"
+            android:textSize="@dimen/_20ssp"
+            android:textColor="@color/textcolorforapp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:paddingLeft="@dimen/_2sdp"
+            android:paddingRight="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            />
+
+
+
+        <EditText
+            android:id="@+id/edit_dining_table_capacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="change capacity of table"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="@dimen/_2sdp"
+            android:paddingRight="@dimen/_2sdp"
+            android:layout_marginRight="@dimen/_25sdp"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:textSize="@dimen/_20ssp"
+            android:textColor="@color/textcolorforapp"
+            android:fontFamily="@font/font_style"
+            android:textColorHint="@color/textcolorforapp"
+            android:textAlignment="center"
+            android:layout_marginTop="@dimen/_10sdp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginLeft="@dimen/_50sdp"
+        android:layout_marginRight="@dimen/_50sdp"
+        android:text="update"
+        android:textSize="@dimen/_20ssp"
+        android:background="@color/header"
+        android:id="@+id/edit_dining_table_add_btn"
+        android:gravity="center"
+        android:layout_marginBottom="@dimen/_35sdp"/>
+
+</LinearLayout>

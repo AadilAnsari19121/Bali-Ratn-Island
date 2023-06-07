@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/whole_app_background"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:paddingTop="@dimen/_35sdp"
+        android:paddingBottom="@dimen/_35sdp"
+        android:paddingLeft="@dimen/_15sdp"
+        android:paddingRight="@dimen/_15sdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="holla"
+        android:inputType="textMultiLine"
+        android:id="@+id/feedback_popup_tv"
+        android:layout_gravity="center_vertical"
+        android:gravity="left"
+        android:textColor="@color/textcolorforapp"
+        android:fontFamily="@font/font_style"
+        android:textSize="@dimen/_20ssp"/>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "415099515556",
+    "project_id": "bali-ratn-island-86009",
+    "storage_bucket": "bali-ratn-island-86009.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415099515556:android:29a2f9b194cd27618eec31",
+        "android_client_info": {
+          "package_name": "com.example.bali_ratn_island"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415099515556-4n86jhgaarseeiotd1jb3md6hjem8eee.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEI0CWLvYJCQsXU5zNtCTBRyLOl3opXG0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415099515556-4n86jhgaarseeiotd1jb3md6hjem8eee.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

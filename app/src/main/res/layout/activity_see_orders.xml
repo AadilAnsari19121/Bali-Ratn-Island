@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".see_orders"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/whole_app_background"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@android:color/transparent"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/close_btn"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                app:civ_border_width="1dp"
+                app:civ_border_color="@color/textcolorforapp"
+                android:src="@drawable/ic_baseline_close_24"
+                android:layout_gravity="end"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                app:tint="@color/textcolorforapp" />
+
+
+            <ListView
+                android:id="@+id/recyclerView123456"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_500sdp"
+                android:layout_margin="@dimen/_3sdp"
+                android:scrollbarSize="3dp"
+                android:scrollbarStyle="outsideOverlay"
+                android:scrollbars="vertical"
+                android:scrollingCache="true"
+                android:smoothScrollbar="true"
+                android:background="@android:color/transparent"
+                android:padding="@dimen/_5sdp" />
+
+<!--            <androidx.recyclerview.widget.RecyclerView-->
+<!--                android:id="@+id/rcv2_see_cart"-->
+<!--                android:visibility="gone"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_margin="0dp"-->
+<!--                android:background="@android:color/transparent"-->
+<!--                android:padding="0dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/total_cart_bill"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Total: 00"-->
+<!--                android:textAlignment="center"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_marginTop="@dimen/_15sdp"-->
+<!--                android:textSize="@dimen/_20ssp"-->
+<!--                android:padding="@dimen/_5sdp"-->
+<!--                android:fontFamily="@font/font_style"-->
+<!--                android:textColor="@color/textcolorforapp"/>-->
+
+            <Button
+                android:drawableEnd="@drawable/ic_baseline_food_bank_24"
+                android:drawableTint="@color/white"
+                android:paddingLeft="@dimen/_35sdp"
+                android:id="@+id/order_items_cart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cooking done"
+                android:textSize="@dimen/_17sdp"
+                android:layout_marginRight="@dimen/_35sdp"
+                android:layout_marginLeft="@dimen/_35sdp"
+                android:layout_marginTop="@dimen/_25sdp"
+                android:layout_marginBottom="@dimen/_100sdp"/>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+<!--    <ListView-->
+<!--        android:id="@+id/recyclerView123456"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/_450sdp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+
+</LinearLayout>

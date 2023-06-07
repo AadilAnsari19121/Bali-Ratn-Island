@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin_add_cat"
+    android:background="@color/whole_app_background"
+    android:orientation="vertical"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/_150sdp"
+        android:layout_height="@dimen/_150sdp"
+        android:src="@drawable/food_bg"
+        app:civ_border_width="@dimen/_3sdp"
+        app:civ_border_color="@color/headerdark"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:padding="2dp"
+        android:id="@+id/cat_image"/>
+    
+<!--    <EditText-->
+<!--        android:id="@+id/img_url"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="@dimen/_55sdp"-->
+<!--        android:hint="past the image url from browser"-->
+<!--        android:textColorHint="@color/textcolorforapp"-->
+<!--        android:textStyle="italic"-->
+<!--        android:inputType="textMultiLine"-->
+<!--        android:textSize="@dimen/_20ssp"-->
+<!--        android:textColor="@color/textcolorforapp"-->
+<!--        android:textAlignment="center"-->
+<!--        android:gravity="center"-->
+<!--        android:layout_marginTop="@dimen/_10sdp"-->
+<!--        android:paddingLeft="@dimen/_2sdp"-->
+<!--        android:paddingRight="@dimen/_2sdp"-->
+<!--        android:layout_marginRight="@dimen/_25sdp"-->
+<!--        android:layout_marginLeft="@dimen/_25sdp"-->
+<!--        />-->
+
+
+
+    <EditText
+        android:id="@+id/cat_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="add the name of category"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingLeft="@dimen/_2sdp"
+        android:paddingRight="@dimen/_2sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:textSize="@dimen/_23ssp"
+        android:textColor="@color/textcolorforapp"
+        android:fontFamily="@font/font_style"
+        android:textColorHint="@color/textcolorforapp"
+        android:textAlignment="center"
+        android:layout_marginTop="@dimen/_35sdp"/>
+
+    <Button
+        android:drawableEnd="@drawable/ic_baseline_add_24"
+        android:drawableTint="@color/white"
+        android:paddingLeft="@dimen/_35sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_65sdp"
+        android:layout_marginLeft="@dimen/_50sdp"
+        android:layout_marginRight="@dimen/_50sdp"
+        android:text="add category"
+        android:textSize="@dimen/_20ssp"
+        android:background="@color/header"
+        android:id="@+id/cat_add_btn"
+        android:gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cutomer_dashboard"
+    android:background="@color/whole_app_background"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/cutomer_see_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/_35sdp"
+        android:layout_marginLeft="@dimen/_35sdp"
+        android:text="see category"
+        android:fontFamily="@font/font_style"
+        android:textColor="@color/textcolorforapp"
+        android:textSize="@dimen/_20ssp"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginTop="-50dp"
+        />
+
+    <Button
+        android:id="@+id/cutomer_see_cart"
+        android:textColor="@color/textcolorforapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/_35sdp"
+        android:layout_marginLeft="@dimen/_35sdp"
+        android:text="cart"
+        android:fontFamily="@font/font_style"
+        android:textSize="@dimen/_20ssp"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"/>
+
+    <Button
+        android:id="@+id/cutomer_see_order_status"
+        android:textColor="@color/textcolorforapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/_35sdp"
+        android:layout_marginLeft="@dimen/_35sdp"
+        android:text="order status"
+        android:fontFamily="@font/font_style"
+        android:textSize="@dimen/_20ssp"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"/>
+
+    <Button
+        android:id="@+id/cutomer_see_bill"
+        android:textColor="@color/textcolorforapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/_35sdp"
+        android:layout_marginLeft="@dimen/_35sdp"
+        android:text="bill"
+        android:fontFamily="@font/font_style"
+        android:textSize="@dimen/_20ssp"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"/>
+
+
+    <Button
+        android:id="@+id/cutomer_feedback"
+        android:textColor="@color/textcolorforapp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/_35sdp"
+        android:layout_marginLeft="@dimen/_35sdp"
+        android:text="feedback"
+        android:fontFamily="@font/font_style"
+        android:textSize="@dimen/_20ssp"
+        android:padding="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_10sdp"/>
+
+</LinearLayout>

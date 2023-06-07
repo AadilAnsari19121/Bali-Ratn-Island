@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/whole_app_background">
+
+    <TextView
+        android:id="@+id/change_pwd_des_emp_id"
+        android:text="BALI  RATN ISLAND"
+        android:fontFamily="@font/font_style"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        android:inputType="textMultiLine"
+        android:gravity="center"
+        android:textSize="@dimen/_25ssp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/_5sdp"
+        android:paddingBottom="@dimen/_5sdp"
+        android:paddingRight="@dimen/_15sdp"
+        android:paddingLeft="@dimen/_15sdp"
+        android:background="@color/textcolorforapp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/table_number_for_CTMR_des_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Table Number"
+                app:startIconDrawable="@drawable/ic_baseline_table_bar_24"
+                app:startIconTint="@color/textcolorforapp"
+                app:boxCornerRadiusTopEnd="@dimen/_15sdp"
+                app:boxCornerRadiusBottomStart="@dimen/_15sdp"
+                app:boxStrokeColor="@color/textcolorforapp"
+                android:textColorHint="@color/textcolorforapp"
+                android:layout_marginRight="@dimen/_25sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_marginTop="@dimen/_35sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:textColor="@color/textcolorforapp"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_55sdp"
+                android:layout_marginLeft="@dimen/_50sdp"
+                android:layout_marginRight="@dimen/_50sdp"
+                android:text="Enter"
+                android:fontFamily="@font/font_style"
+                android:textSize="@dimen/_15ssp"
+                android:background="@color/header"
+                android:id="@+id/table_number_for_CTMR_des_btn"
+                android:gravity="center"
+                android:layout_marginBottom="@dimen/_55sdp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
