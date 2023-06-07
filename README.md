@@ -68,7 +68,7 @@ Allows data to be easily accessed, manipulated, updated and also used by an orga
 ![full](https://github.com/AadilAnsari19121/Bali-Ratn-Island/blob/master/ss_of_BRI/cat.jpg)
 - Category Page
 #
-![Tech](https://github.com/AadilAnsari19121/Bali-Ratn-Island/blob/master/ss_of_BRI/Pay.jpg)
+![Tech](https://github.com/AadilAnsari19121/Bali-Ratn-Island/blob/master/ss_of_BRI/pay.jpg)
 - Payment Page
 #
 ![search](https://github.com/AadilAnsari19121/Bali-Ratn-Island/blob/master/ss_of_BRI/table_st.jpg)
